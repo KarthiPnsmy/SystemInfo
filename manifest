@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: System info module used to get the system information like OS VERSION, API LEVEL, HARDWARE MANUFACTURER,
+DEVICE, MODEL, SYTEM RAM, ABI and PROCESSOR information.
+author: Karthi ponnusamy
+license: Open Source Module
+copyright: Copyright 2013
+
+
+# these should not be edited
+name: systeminfo
+moduleid: titutorial.sysinfo
+guid: 3b9c181c-1c02-4ab8-9bae-44e0abc917f5
+platform: android
+minsdk: 3.1.0.GA
