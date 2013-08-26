@@ -11,6 +11,7 @@ System info module used to get the following bacic system information in Android
 * SYTEM RAM
 * ABI 
 * PROCESSOR
+
 This module will return a JSON string. Please see example app.js file
 
 ## Accessing the systeminfo Module
