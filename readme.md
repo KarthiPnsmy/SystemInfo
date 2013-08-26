@@ -1,25 +1,33 @@
-# systeminfo Module
+# SystemInfo Module
 
 ## Description
 
-System info module used to get the system information like OS VERSION, API LEVEL, HARDWARE MANUFACTURER,
-DEVICE, MODEL, SYTEM RAM, ABI and PROCESSOR information. Module will return a JSON string. Please see example app.js file
+System info module used to get the following bacic system information in Android. 
+* OS VERSION
+* API LEVEL
+* HARDWARE MANUFACTURER
+* DEVICE
+* MODEL
+* SYTEM RAM
+* ABI 
+* PROCESSOR
+This module will return a JSON string. Please see example app.js file
 
 ## Accessing the systeminfo Module
 
 To access this module from JavaScript, you would do the following:
-<pre>
+```javascript
 var systeminfo = require("titutorial.sysinfo");
-</pre>
+```
 The systeminfo variable is a reference to the Module object.	
 
 ## Usage
-<pre>
+```javascript
 var systeminfo = require('titutorial.sysinfo');
 var infoStr = systeminfo.getInfo();
 var infoObj = JSON.parse(infoStr);
 Ti.API.info("infoObj obj => " + infoObj);
-</pre>
+```
 ## Author
 
 Karthi Ponnusamy - karthi.nkl@gmail.com
